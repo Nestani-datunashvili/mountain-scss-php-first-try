@@ -1,0 +1,39 @@
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin white-button {
+  border: none;
+  background-color: $primary-color;
+  color: $secondary-color;
+  cursor: pointer;
+}
+
+@mixin black-button {
+  border: none;
+  background-color: $secondary-color;
+  color: $primary-color;
+  cursor: pointer;
+}
+
+@mixin card {
+  overflow: hidden;
+  margin: 20px;
+  width: 250px;
+  height: auto;
+}
+
+@mixin card-img {
+  width: 100%;
+  height: auto;
+}
+
+@mixin card-content {
+  padding: 10px;
+
+  p {
+    padding: 10px 0;
+  }
+}

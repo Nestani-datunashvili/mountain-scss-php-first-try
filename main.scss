@@ -1,0 +1,16 @@
+@import "./heading";
+@import "./variable";
+@import "./mixins";
+@import "./firstpage";
+@import "./travelpage";
+@import "./footer";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "EB Garamond", serif;
+}
